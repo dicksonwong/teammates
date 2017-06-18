@@ -18,9 +18,8 @@ chromedriver*
 *.bak
 *.db
 *.md.html
-libs/
-*.js
-!webpack-*.config.js
+src/main/webapp/js/
+src/main/webapp/test/*.js
 node_modules/
 npm-debug.log
 
