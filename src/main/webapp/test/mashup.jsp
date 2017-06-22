@@ -32,9 +32,6 @@
         border: 2px red solid;
       }
     </style>
-    <script type="text/javascript" src="<%= FrontEndLibrary.JQUERY %>"></script>
-    <script type="text/javascript" src="<%= FrontEndLibrary.BOOTSTRAP %>"></script>
-    <script type="text/javascript" src="/js/common.js"></script>
   </head>
   <body>
     <div class="container theme-showcase">
@@ -434,6 +431,8 @@
     </div>
   </body>
 
+  <script type="text/javascript" src="<%= FrontEndLibrary.JQUERY %>"></script>
+  <script type="text/javascript" src="<%= FrontEndLibrary.BOOTSTRAP %>"></script>
   <script>
     (function() {
       $(document).ready(function() {
