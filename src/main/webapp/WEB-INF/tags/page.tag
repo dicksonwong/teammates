@@ -2,7 +2,6 @@
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
 <%@ tag import="teammates.common.util.Const" %>
 <%@ attribute name="pageTitle" required="true" %>
-<%@ attribute name="cssIncludes" fragment="true" %>
 <%@ attribute name="jsIncludes" fragment="true" %>
 <%@ attribute name="navBar" required="true" fragment="true" %>
 <%@ attribute name="bodyTitle" required="true" %>
@@ -14,7 +13,6 @@
     <link rel="shortcut icon" href="/favicon.png">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <jsp:invoke fragment="cssIncludes" />
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
